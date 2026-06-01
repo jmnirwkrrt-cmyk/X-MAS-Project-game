@@ -36,4 +36,4 @@ https://sonicfangameshq.com/forums/threads/sonic-x-mas-project-christmas-defense
 
 https://gamejolt.com/games/X-MAS_PROJECT/979804
 
-https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Frutracker.org%2Fforum%2Fviewtopic.php%3Ft%3D6865843
+https://rutracker.org/forum/viewtopic.php?t=6865843
