@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"launch_missile",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.6890023,
+  "exportDir":"",
+  "name":"launch_missile",
+  "parent":{
+    "name":"sounds_air",
+    "path":"folders/Sounds/sounds_air.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"launch_missile.wav",
+  "volume":0.21,
+}

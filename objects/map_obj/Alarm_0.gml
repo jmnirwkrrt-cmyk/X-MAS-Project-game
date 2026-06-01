@@ -1,0 +1,2 @@
+global.click = false;
+

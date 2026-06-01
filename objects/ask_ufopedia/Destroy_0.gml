@@ -1,0 +1,12 @@
+if (instance_exists(text)) instance_destroy(text);
+if (instance_exists(but1)) instance_destroy(but1);
+if (instance_exists(but2)) instance_destroy(but2);
+if (instance_exists(but3)) instance_destroy(but3);
+if (instance_exists(but4)) instance_destroy(but4);
+if (instance_exists(but5)) instance_destroy(but5);
+if (instance_exists(but6)) instance_destroy(but6);
+if (instance_exists(but7)) instance_destroy(but7);
+if (instance_exists(but8)) instance_destroy(but8);
+if (instance_exists(but9)) instance_destroy(but9);
+if (instance_exists(but10)) instance_destroy(but10);
+instance_activate_object(text_obj_red_28);

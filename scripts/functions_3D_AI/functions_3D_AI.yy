@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"functions_3D_AI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"functions_3D_AI",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

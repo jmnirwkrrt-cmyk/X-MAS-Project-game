@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sonic_wave",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":6,
+  "conversionMode":0,
+  "duration":0.0,
+  "exportDir":"",
+  "name":"sonic_wave",
+  "parent":{
+    "name":"voice",
+    "path":"folders/Sounds/voice.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sonic_wave",
+  "volume":1.0,
+}

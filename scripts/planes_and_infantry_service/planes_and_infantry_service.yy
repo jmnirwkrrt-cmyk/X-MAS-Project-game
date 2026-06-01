@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"planes_and_infantry_service",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"planes_and_infantry_service",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

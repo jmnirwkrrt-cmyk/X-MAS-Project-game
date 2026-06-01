@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"air_autobattle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"air_autobattle",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

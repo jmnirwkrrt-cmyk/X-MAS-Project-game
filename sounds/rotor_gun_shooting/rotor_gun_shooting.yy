@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"rotor_gun_shooting",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.1880045,
+  "exportDir":"",
+  "name":"rotor_gun_shooting",
+  "parent":{
+    "name":"sounds_air",
+    "path":"folders/Sounds/sounds_air.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"rotor_gun_shooting.wav",
+  "volume":1.0,
+}

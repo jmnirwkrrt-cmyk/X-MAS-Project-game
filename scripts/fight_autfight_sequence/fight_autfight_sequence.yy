@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fight_autfight_sequence",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fight_autfight_sequence",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

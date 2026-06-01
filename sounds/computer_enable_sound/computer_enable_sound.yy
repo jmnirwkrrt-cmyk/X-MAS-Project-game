@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"computer_enable_sound",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":15.048662,
+  "exportDir":"",
+  "name":"computer_enable_sound",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/Sounds/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"computer_enable_sound.mp3",
+  "volume":1.0,
+}

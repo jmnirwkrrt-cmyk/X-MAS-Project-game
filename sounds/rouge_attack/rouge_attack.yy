@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"rouge_attack",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":6,
+  "conversionMode":0,
+  "duration":0.0,
+  "exportDir":"",
+  "name":"rouge_attack",
+  "parent":{
+    "name":"voice",
+    "path":"folders/Sounds/voice.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"rouge_attack",
+  "volume":1.0,
+}

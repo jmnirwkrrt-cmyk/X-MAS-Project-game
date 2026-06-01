@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Christmas_invasion",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":3,
+  "compressionQuality":6,
+  "conversionMode":0,
+  "duration":48.680634,
+  "exportDir":"",
+  "name":"Christmas_invasion",
+  "parent":{
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Christmas_invasion",
+  "volume":1.0,
+}

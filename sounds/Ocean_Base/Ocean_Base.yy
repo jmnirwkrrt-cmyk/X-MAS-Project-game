@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Ocean_Base",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":344.84244,
+  "exportDir":"",
+  "name":"Ocean_Base",
+  "parent":{
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Ocean_Base.mp3",
+  "volume":1.0,
+}

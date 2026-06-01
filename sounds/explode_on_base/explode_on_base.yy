@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"explode_on_base",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":7.9422903,
+  "exportDir":"",
+  "name":"explode_on_base",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/Sounds/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"explode_on_base.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"AI_on_map",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AI_on_map",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"jet_plane_crash",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":13.844013,
+  "exportDir":"",
+  "name":"jet_plane_crash",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/Sounds/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"jet_plane_crash.wav",
+  "volume":1.0,
+}

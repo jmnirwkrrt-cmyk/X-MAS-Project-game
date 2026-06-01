@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"soviet_attack_4",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":6,
+  "conversionMode":0,
+  "duration":1.544127,
+  "exportDir":"",
+  "name":"soviet_attack_4",
+  "parent":{
+    "name":"soviet",
+    "path":"folders/Sounds/voice/soviet.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"soviet_attack_4",
+  "volume":0.55,
+}

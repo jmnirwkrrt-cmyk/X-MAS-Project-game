@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"plasma_explode",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":7.9670067,
+  "exportDir":"",
+  "name":"plasma_explode",
+  "parent":{
+    "name":"sounds_air",
+    "path":"folders/Sounds/sounds_air.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"plasma_explode.wav",
+  "volume":1.0,
+}

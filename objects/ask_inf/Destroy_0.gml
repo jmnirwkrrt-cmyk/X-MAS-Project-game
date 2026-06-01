@@ -1,0 +1,6 @@
+instance_destroy(button_large_b_infname);
+instance_destroy(button_large_b_iweapon);
+instance_destroy(button_large_b_iremove);
+instance_destroy(text_obj_white_28);
+instance_destroy(button_large_b_designation);
+

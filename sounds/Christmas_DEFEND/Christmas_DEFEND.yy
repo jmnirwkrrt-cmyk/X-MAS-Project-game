@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Christmas_DEFEND",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":31.50077,
+  "exportDir":"",
+  "name":"Christmas_DEFEND",
+  "parent":{
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Christmas_DEFEND.ogg",
+  "volume":1.0,
+}

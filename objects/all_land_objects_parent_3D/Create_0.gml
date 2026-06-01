@@ -1,0 +1,3 @@
+z = 1;
+depth = room_height - y + 5;
+

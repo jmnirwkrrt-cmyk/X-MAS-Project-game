@@ -1,0 +1,369 @@
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\scripts\sprite_load\sprite_load.gml
+String not found: ConversionLog_ConvertedString 1 "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭ/ЯЧСМИТЬБЮ,йцукенгшщзхъфывапролджэ\ячсмитьбю.0123456789qwertyuiop[]asdfghjkl;'\zxcvbnm,./QWERTYUIOP{}ASDFGHJKL:|ZXCVBNM<>?!@#$%^&*()-=_!№;%:?*()" "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭ/ЯЧСМИТЬБЮ,йцукенгшщзхъфывапролджэ\\ячсмитьбю.0123456789qwertyuiop[]asdfghjkl;'\\zxcvbnm,./QWERTYUIOP{}ASDFGHJKL:|ZXCVBNM<>?!@#$%^&*()-=_!№;%:?*()"
+String not found: ConversionLog_ConvertedString 13 "Солдаты\" "Солдаты\\"
+String not found: ConversionLog_ConvertedString 15 "\Справа" "\\Справа"
+String not found: ConversionLog_ConvertedString 16 "\Бежит" "\\Бежит"
+String not found: ConversionLog_ConvertedString 17 '\*.png' "\\*.png"
+String not found: ConversionLog_ConvertedString 18 '\' "\\"
+String not found: ConversionLog_ConvertedString 23 '\' "\\"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\scripts\text_ru\text_ru.gml
+Converted description /// @description //////////////// Текст (русский)/// @param русский
+String not found: ConversionLog_ConvertedString 16 "КУПИТЬ\НАНЯТЬ" "КУПИТЬ\\НАНЯТЬ"
+String not found: ConversionLog_ConvertedString 17 "ПРОДАТЬ\УВОЛИТЬ" "ПРОДАТЬ\\УВОЛИТЬ"
+
+GameMaker Studio 1 font texture has been backed up at C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\fonts\font_general_22\font_general_22.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\fonts\font_general_28\font_general_28.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\fonts\font_general_18\font_general_18.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\fonts\font_general_12\font_general_12.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\fonts\font_time_96\font_time_96.gms1.png
+GameMaker Studio 1 font texture has been backed up at C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\fonts\font_time_28\font_time_28.gms1.png
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\X_MAS_team\Step_0.gml
+Converted description /// @description  удары
+String not found: ConversionLog_ConvertedString 322 '_' "_"
+String not found: ConversionLog_ConvertedString 324 '_' "_"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\Terror_Squad\Step_2.gml
+String not found: ConversionLog_ConvertedString 380 '_' "_"
+String not found: ConversionLog_ConvertedString 382 '_' "_"
+String not found: ConversionLog_ConvertedString 412 '_' "_"
+String not found: ConversionLog_ConvertedString 414 '_' "_"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\X_MAS_ally\Step_2.gml
+Converted description /// @description  Спрайты
+String not found: ConversionLog_ConvertedString 1075 '_' "_"
+String not found: ConversionLog_ConvertedString 1079 '_' "_"
+String not found: ConversionLog_ConvertedString 1081 '_' "_"
+String not found: ConversionLog_ConvertedString 1083 '_' "_"
+String not found: ConversionLog_ConvertedString 1085 '_' "_"
+String not found: ConversionLog_ConvertedString 1088 '_' "_"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\beetle\Step_2.gml
+String not found: ConversionLog_ConvertedString 95 '_' "_"
+String not found: ConversionLog_ConvertedString 97 '_' "_"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\ufo_tank\Step_2.gml
+String not found: ConversionLog_ConvertedString 134 '_' "_"
+String not found: ConversionLog_ConvertedString 136 '_' "_"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\hero_obj\Step_2.gml
+Converted builtin - line 3: view_object[0] = hero_obj -> __view_set( e__VW.Object, 0, hero_obj )
+Converted builtin - line 2: view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
+Converted description /// @description  Загрузка спрайтов
+String not found: ConversionLog_ConvertedString 181 'W' "W"
+String not found: ConversionLog_ConvertedString 190 'S' "S"
+String not found: ConversionLog_ConvertedString 199 'D' "D"
+String not found: ConversionLog_ConvertedString 210 'A' "A"
+String not found: ConversionLog_ConvertedString 324 'O' "O"
+String not found: ConversionLog_ConvertedString 330 'Q' "Q"
+String not found: ConversionLog_ConvertedString 342 'F' "F"
+String not found: ConversionLog_ConvertedString 352 'G' "G"
+String not found: ConversionLog_ConvertedString 417 'G' "G"
+String not found: ConversionLog_ConvertedString 955 '_' "_"
+String not found: ConversionLog_ConvertedString 959 '_' "_"
+String not found: ConversionLog_ConvertedString 961 '_' "_"
+String not found: ConversionLog_ConvertedString 963 '_' "_"
+String not found: ConversionLog_ConvertedString 965 '_' "_"
+String not found: ConversionLog_ConvertedString 968 '_' "_"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\hero_info\Step_2.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\grenade\Create_0.gml
+ERROR: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\grenade\Create_0.gml - 3: unexpected syntax error
+ERROR: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\grenade\Create_0.gml - 3: unexpected syntax error
+ERROR: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\grenade\Create_0.gml - 3: unexpected terminal operator =
+Too many errors - GML not processed : C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\grenade\Create_0.gml
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\tabletop\Step_2.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\mouse_follower\Step_2.gml
+Converted builtin - line 5: view_hborder[0] = 100 -> __view_set( e__VW.HBorder, 0, 100 )
+Converted builtin - line 6: view_vborder[0] = 100 -> __view_set( e__VW.VBorder, 0, 100 )
+Converted builtin - line 4: view_object[0] = mouse_follower -> __view_set( e__VW.Object, 0, mouse_follower )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\mouse_follower\Mouse_7.gml
+Converted builtin - line 36: view_hborder[0] = view_wport[0] / 2 -> __view_set( e__VW.HBorder, 0, view_wport[0] / 2 )
+Converted builtin - line 37: view_vborder[0] = view_hport[0] / 2 -> __view_set( e__VW.VBorder, 0, view_hport[0] / 2 )
+Converted builtin - line 35: view_object[0] = hero_obj -> __view_set( e__VW.Object, 0, hero_obj )
+Converted builtin - line 36: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 37: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\menu_small\Create_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_hborder[0] -> __view_get( e__VW.HBorder, 0 )
+Converted builtin - line 9: view_vborder[0] -> __view_get( e__VW.VBorder, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\menu_small\Step_2.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_hborder[0] -> __view_get( e__VW.HBorder, 0 )
+Converted builtin - line 2: view_vborder[0] -> __view_get( e__VW.VBorder, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\button_grenade\Step_2.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\button_medkit\Step_2.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\map_menu\KeyRelease_113.gml
+Converted description /// @description  тестовый воздушный бой
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\map_menu\KeyRelease_112.gml
+Converted description /// @description  тестовый сухопутный бой
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\time_m\Step_2.gml
+Converted description /// @description  Общее
+String not found: ConversionLog_ConvertedString 182 ':' ":"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\date\Step_2.gml
+String not found: ConversionLog_ConvertedString 6 '.' "."
+String not found: ConversionLog_ConvertedString 8 '.' "."
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\background_map\Step_2.gml
+Converted description /// @description  Общее
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\plane_square_map\Step_2.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\XMAS_Plane\Step_2.gml
+Converted description /// @description  Управление
+String not found: ConversionLog_ConvertedString 112 'R' "R"
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\plane_commander\Create_0.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\plane_commander\Step_2.gml
+Converted builtin - line 28: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 64: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 72: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_xview[0]-=course -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) - (course) )
+Converted builtin - line 26: view_xview[0]+=course -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (course) )
+Converted builtin - line 28: view_xview[0]+=course -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (course) )
+Converted builtin - line 29: view_xview[0]-=course -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) - (course) )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 64: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 72: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview[0]+=course -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (course) )
+Converted builtin - line 24: view_yview[0]-=course -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - (course) )
+Converted builtin - line 30: view_yview[0]+=course -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (course) )
+Converted builtin - line 31: view_yview[0]-=course -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - (course) )
+Converted builtin - line 28: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 64: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 72: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview[0]+=course -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (course) )
+Converted builtin - line 3: view_wview[0]-=course -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) - (course) )
+Converted builtin - line 30: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 64: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 72: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 2: view_hview[0]+=course -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) + (course) )
+Converted builtin - line 3: view_hview[0]-=course -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (course) )
+Converted description /// @description  Управление картой
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\plane_commander\Draw_73.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 47: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 51: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 72: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 116: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 191: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 40: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 47: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 52: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 63: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 73: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 116: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 191: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 39: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 41: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 42: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 47: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 51: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 62: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 64: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 69: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 70: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 72: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 85: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 85: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 96: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 97: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 98: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 99: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 100: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 101: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 102: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 103: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 104: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 105: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 106: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 107: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 108: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 109: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 116: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 26: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 30: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 40: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 47: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 52: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 63: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 116: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Рисуем РЛС
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\plane_shell\Draw_73.gml
+Converted description /// @description  для лазера
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\button_for_plane\Step_2.gml
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: C:\Users\Andrey\Documents\GameMaker\Backups\X-MAS Project\X-MAS Project-0\mvc\objects\button_for_plane\Mouse_7.gml
+Converted builtin - line 25: view_xview = selected_plane.x - view_wview / 2 -> __view_set( e__VW.XView, 0, selected_plane.x - view_wview / 2 )
+Converted builtin - line 26: view_yview = selected_plane.y - view_hview / 2 -> __view_set( e__VW.YView, 0, selected_plane.y - view_hview / 2 )
+Converted builtin - line 25: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_hview -> __view_get( e__VW.HView, 0 )
+
+Missing audiogroup for sound: 'step_gravel' - setting to default audio group
+Missing audiogroup for sound: 'robot_step_2' - setting to default audio group
+Missing audiogroup for sound: 'robot_step_1' - setting to default audio group
+Missing audiogroup for sound: 'bullet_hit_1' - setting to default audio group
+Missing audiogroup for sound: 'jump_sound' - setting to default audio group
+Missing audiogroup for sound: 'bullet_hit_2' - setting to default audio group
+Missing audiogroup for sound: 'button_sound' - setting to default audio group
+Missing audiogroup for sound: 'easy_hit_metal' - setting to default audio group
+Missing audiogroup for sound: 'laser_sound' - setting to default audio group
+Missing audiogroup for sound: 'explosion_sound' - setting to default audio group
+Missing audiogroup for sound: 'hit_sound' - setting to default audio group
+Missing audiogroup for sound: 'metal_hit' - setting to default audio group
+Missing audiogroup for sound: 'levitation' - setting to default audio group
+Missing audiogroup for sound: 'strekota' - setting to default audio group
+Missing audiogroup for sound: 'machinegun_long' - setting to default audio group
+Missing audiogroup for sound: 'shoot_long' - setting to default audio group
+Missing audiogroup for sound: 'shoot_fast' - setting to default audio group
+Missing audiogroup for sound: 'step_metal' - setting to default audio group
+Missing audiogroup for sound: 'step_snow' - setting to default audio group
+Missing audiogroup for sound: 'Christmas_invasion' - setting to default audio group
+Missing audiogroup for sound: 'Christmas_interceptor' - setting to default audio group
+Missing audiogroup for sound: 'Christmas_Geoscape_1' - setting to default audio group
+Missing audiogroup for sound: 'Christmas_Geoscape_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_kill_3' - setting to default audio group
+Missing audiogroup for sound: 'soviet_kill_4' - setting to default audio group
+Missing audiogroup for sound: 'soviet_landmine' - setting to default audio group
+Missing audiogroup for sound: 'soviet_lost_ally_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_lost_ally_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_placement_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_placement_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_placement_3' - setting to default audio group
+Missing audiogroup for sound: 'soviet_placement_4' - setting to default audio group
+Missing audiogroup for sound: 'soviet_placement_5' - setting to default audio group
+Missing audiogroup for sound: 'soviet_too_many_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_too_many_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_won_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_won_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_won_3' - setting to default audio group
+Missing audiogroup for sound: 'soviet_won_4' - setting to default audio group
+Missing audiogroup for sound: 'soviet_won_5' - setting to default audio group
+Missing audiogroup for sound: 'soviet_attack_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_attack_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_attack_3' - setting to default audio group
+Missing audiogroup for sound: 'soviet_attack_4' - setting to default audio group
+Missing audiogroup for sound: 'soviet_close_combat' - setting to default audio group
+Missing audiogroup for sound: 'soviet_death_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_death_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_explosion_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_heal_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_heal_2' - setting to default audio group
+Missing audiogroup for sound: 'soviet_idle_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_kill_1' - setting to default audio group
+Missing audiogroup for sound: 'soviet_kill_2' - setting to default audio group
+Missing audiogroup for sound: 'amy_death' - setting to default audio group
+Missing audiogroup for sound: 'amy_hit' - setting to default audio group
+Missing audiogroup for sound: 'amy_tornado' - setting to default audio group
+Missing audiogroup for sound: 'amy_win' - setting to default audio group
+Missing audiogroup for sound: 'eggman_start' - setting to default audio group
+Missing audiogroup for sound: 'knuckles_attack' - setting to default audio group
+Missing audiogroup for sound: 'knuckles_go' - setting to default audio group
+Missing audiogroup for sound: 'knuckles_hit' - setting to default audio group
+Missing audiogroup for sound: 'knuckles_win' - setting to default audio group
+Missing audiogroup for sound: 'pawn_go' - setting to default audio group
+Missing audiogroup for sound: 'rouge_attack' - setting to default audio group
+Missing audiogroup for sound: 'rouge_death' - setting to default audio group
+Missing audiogroup for sound: 'rouge_go' - setting to default audio group
+Missing audiogroup for sound: 'rouge_hit' - setting to default audio group
+Missing audiogroup for sound: 'rouge_win' - setting to default audio group
+Missing audiogroup for sound: 'shadow_field' - setting to default audio group
+Missing audiogroup for sound: 'amy_go' - setting to default audio group
+Missing audiogroup for sound: 'shadow_go' - setting to default audio group
+Missing audiogroup for sound: 'shadow_hit' - setting to default audio group
+Missing audiogroup for sound: 'shadow_win' - setting to default audio group
+Missing audiogroup for sound: 'sonic_attack' - setting to default audio group
+Missing audiogroup for sound: 'sonic_death' - setting to default audio group
+Missing audiogroup for sound: 'knuckles_death' - setting to default audio group
+Missing audiogroup for sound: 'shadow_death' - setting to default audio group
+Missing audiogroup for sound: 'silver_win' - setting to default audio group
+Missing audiogroup for sound: 'silver_attack' - setting to default audio group
+Missing audiogroup for sound: 'silver_death' - setting to default audio group
+Missing audiogroup for sound: 'silver_go' - setting to default audio group
+Missing audiogroup for sound: 'silver_hit' - setting to default audio group
+Missing audiogroup for sound: 'sonic_go' - setting to default audio group
+Missing audiogroup for sound: 'shadow_attack' - setting to default audio group
+Missing audiogroup for sound: 'sonic_hit' - setting to default audio group
+Missing audiogroup for sound: 'sonic_wave' - setting to default audio group
+Missing audiogroup for sound: 'sonic_win' - setting to default audio group
+Missing audiogroup for sound: 'tails_attack' - setting to default audio group
+Missing audiogroup for sound: 'tails_bpla' - setting to default audio group
+Missing audiogroup for sound: 'tails_death' - setting to default audio group
+Missing audiogroup for sound: 'tails_go' - setting to default audio group
+Missing audiogroup for sound: 'tails_hit' - setting to default audio group
+Missing audiogroup for sound: 'tails_win' - setting to default audio group
+Missing audiogroup for sound: 'amy_attack' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action\action_bounce.gml'
+Added compatibility script 'action\action_current_room.gml'
+Added compatibility script 'action\action_effect.gml'
+Added compatibility script 'action\action_if_variable.gml'
+Added compatibility script 'action\action_kill_object.gml'
+Added compatibility script 'action\action_restart_game.gml'
+Added compatibility script 'draw\draw_set_alpha_test.gml'
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'sound\sound_isplaying.gml'
+Added compatibility script 'sound\sound_play.gml'
+Added compatibility script 'sound\sound_stop.gml'
+Added compatibility script 'sound\sound_stop_all.gml'
+Added compatibility script 'sound\sound_volume.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'action\__init_action.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

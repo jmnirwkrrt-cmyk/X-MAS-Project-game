@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Christmas_lose",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":533.1563,
+  "exportDir":"",
+  "name":"Christmas_lose",
+  "parent":{
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Christmas_lose.ogg",
+  "volume":1.0,
+}
