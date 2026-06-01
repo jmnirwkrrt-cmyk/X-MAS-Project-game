@@ -26,11 +26,11 @@ Game genre: Real-time strategy with beat 'em up elements
 Original materials created by the project author are licensed under the MIT License.
 See `LICENSE.md`.
 
+This includes the author's original source code, graphics, sound effects, music, text, data files, UI elements, and documentation, unless stated otherwise.
+
+Third-party materials are not covered by this license. This license does not grant rights to Sonic the Hedgehog characters, SEGA trademarks, GameMaker, GameMaker runtime files, third-party music, third-party sound recordings, fonts, or other materials owned by their respective rights holders.
+
 
 ## Additional sites || Дополнительные сайты:
 https://sonicfangameshq.com/forums/threads/sonic-x-mas-project-christmas-defense-demonstration-version-released.1413/
 https://gamejolt.com/games/X-MAS_PROJECT/979804
-
-This includes the author's original source code, graphics, sound effects, music, text, data files, UI elements, and documentation, unless stated otherwise.
-
-Third-party materials are not covered by this license. This license does not grant rights to Sonic the Hedgehog characters, SEGA trademarks, GameMaker, GameMaker runtime files, third-party music, third-party sound recordings, fonts, or other materials owned by their respective rights holders.
