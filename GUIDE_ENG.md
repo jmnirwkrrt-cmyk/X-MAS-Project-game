@@ -6,7 +6,7 @@ Saves are not encrypted and can be edited, but it is recommended to make a backu
 
 ## Gameplay
 On the world map, the gameplay resembles a simplified X-COM UFO DEFENSE, in air combat it resembles a reimagining of Xenonauts, and in ground combat it resembles a simplified Sonic Battle.
-To complete the game 
+To complete the game find a way to stop dr. Eggman and save christmas.
 
 ## Management
 Air combat:
