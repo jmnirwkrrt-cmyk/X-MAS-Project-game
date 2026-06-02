@@ -293,7 +293,7 @@ if (indx != 0)
 	if (status == 2)
 	{
 		var nearest_city = instance_nearest(x, y, onmap_city);
-		var nearest_enemy = noone;
+		var near_enemy = noone;
 
 		var x_deviation = irandom_range(-100, 100);
 		var y_deviation = irandom_range(-100, 100);
@@ -315,7 +315,7 @@ if (indx != 0)
 				if (terror.type == 1 || terror.type == 2) { is_air_terror_exist = true; break; }
 				terror = noone;
 			}
-			var near_enemy = instance_nearest(base_x, base_y, onmap_enemy);
+			near_enemy = instance_nearest(base_x, base_y, onmap_enemy);
 			if ((!is_air_terror_exist && !instance_exists(near_enemy)) || (instance_exists(near_enemy) && point_distance(nearest_city.base_x, nearest_city.base_y, near_enemy.base_x, near_enemy.base_y) > 500) || (instance_exists(terror) && point_distance(terror.base_x, terror.base_y, terror.base_x, terror.base_y) > 500))
 			{
 				if (instance_exists(nearest_city))
@@ -340,33 +340,33 @@ if (indx != 0)
 			if (instance_exists(near_enemy))
 			{
 				status = 1;
-				target = nearest_enemy;
-				target_id = nearest_enemy.own_id;
+				target = near_enemy;
+				target_id = near_enemy.own_id;
 				point_x = target.base_x;
 				point_y = target.base_y;
 			} 
 			else
 			if (instance_exists(terror))
 			{
-				nearest_enemy = noone;
+				near_enemy = noone;
 				for (var i = 0; i < instance_number(onmap_enemysite); i++)
 				{
 					terror = instance_find(onmap_enemysite, i);
-					if (!instance_exists(nearest_enemy))
+					if (!instance_exists(near_enemy))
 					{
-						if (terror.type == 1 || terror.type == 2) { nearest_enemy = terror; }
+						if (terror.type == 1 || terror.type == 2) { near_enemy = terror; }
 					}
 					else
 					{
 						var dist_1 = point_distance(base_x, base_y, terror.base_x, terror.base_y);
-						var dist_2 = point_distance(base_x, base_y, nearest_enemy.base_x, nearest_enemy.base_y);
-						if (dist_1 < dist_2) nearest_enemy = terror;
+						var dist_2 = point_distance(base_x, base_y, near_enemy.base_x, near_enemy.base_y);
+						if (dist_1 < dist_2) near_enemy = terror;
 					}
 					
 				}
 				status = 1;
-				target = nearest_enemy;
-				target_id = nearest_enemy.own_id;
+				target = near_enemy;
+				target_id = near_enemy.own_id;
 				point_x = target.base_x;
 				point_y = target.base_y;
 			}
