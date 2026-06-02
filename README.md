@@ -17,7 +17,9 @@ Santa Claus, realizing that two fat men could not peacefully coexist on the same
 
 ## Languages: RUS|ENG
 Game Platform: Windows
+
 Game Engine: Game Maker 2024
+
 Game genre: Real-time strategy with beat 'em up elements
 
 
