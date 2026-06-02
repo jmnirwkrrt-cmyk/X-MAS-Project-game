@@ -391,12 +391,12 @@ if (time_m.minutes_spawn_enemy_current >= global.spawn_foe_enemy_delay || (keybo
 					else if (global.enemy_score >= global.score_to_metal && class > class_max / 4)
 					{
 						global.eggteam[squad_row, 2] = "metalson";
-						count = round(count / 1.5);
+						count = round(count / 1);
 					}
 					else if (global.enemy_score >= global.score_to_bugs)
 					{
 						global.eggteam[squad_row, 2] = "beetle";
-						count = round(count / 1);
+						count = round(count / 0.5);
 					}
 					else
 					{
@@ -439,176 +439,210 @@ if (time_m.minutes_spawn_enemy_current >= global.spawn_foe_enemy_delay || (keybo
 	}
 }
 
-if ((time_m.minutes_spawn_ally_current >= global.spawn_foe_ally_delay && global.xmas_score > 0 && time_m.allies_per_day < global.max_santa_escorts_per_day + global.max_santa_escorts_add_per_score * global.xmas_score) || (keyboard_check_released(vk_f9) && global.debug))
+if (
+    (time_m.minutes_spawn_ally_current >= global.spawn_foe_ally_delay
+    && global.xmas_score > 0
+    && time_m.allies_per_day < global.max_santa_escorts_per_day + global.max_santa_escorts_add_per_score * global.xmas_score)
+    || (keyboard_check_released(vk_f9) && global.debug)
+)
 {
-	// союзников НЕ трогал (как просил)
-	available_plane_types[0] = 0;
-	
-	time_m.minutes_spawn_ally_current = 0;
-	var n = irandom_range(0, 100);
-	
-	//var random_max_range = 0;
-    //var random_max_range_step = 33.3;
-	
-	if ((global.xmas_score >= global.ally_score_to_recon_task || global.xmas_score >= global.ally_score_to_transport_task || global.xmas_score >= global.ally_score_to_intercept_task) && n <= global.spawn_chance_factor || (keyboard_check_released(vk_f9) && global.debug))
-	{
-		var random_city;
-		if (!instance_exists(onmap_city)) exit;
-		random_city = instance_nearest(irandom_range(0, 900), irandom_range(0, 900), onmap_city);
-		var ally = instance_create(random_city.x, random_city.y, onmap_ally);
-		ally.base_x = random_city.base_x;
-		ally.base_y = random_city.base_y;
-		var ally_types = array_create(0);
-		
-		if (global.xmas_score >= global.ally_score_to_recon_task)
-		{
-			array_push(ally_types, 1); // разведчик
-		}
-		if (global.xmas_score >= global.ally_score_to_intercept_task)
-		{
-			array_push(ally_types, 2); // перехватчик
-			array_push(ally_types, 2);
-			array_push(ally_types, 2); // увеличил "вес" чтобы уменьшить число разведчиков
-		}
-		if (global.xmas_score >= global.ally_score_to_transport_task)
-		{
-			array_push(ally_types, 3); // транспорт / перелёт между городами
-		}
-		
-		if (array_length(ally_types) < 1)
-		{
-			instance_destroy(ally);
-			exit;
-		}
-		
-		ally.type = ally_types[irandom(array_length(ally_types) - 1)];
-		//if (global.xmas_score >= global.ally_score_to_recon_task) random_max_range+=random_max_range_step;
-		//if (global.xmas_score >= global.ally_score_to_transport_task) random_max_range+=random_max_range_step;
-		//if (global.xmas_score >= global.ally_score_to_intercept_task) random_max_range+=random_max_range_step;
+    time_m.minutes_spawn_ally_current = 0;
 
-		//var r = irandom_range(1, random_max_range + random_max_range_step / 2);
-		var max_size = global.ally_escort_max_size * (global.xmas_score / global.score_to_max_size)
-		if (max_size > global.ally_escort_max_size) max_size = global.ally_escort_max_size;
-		var size = irandom_range(global.ally_escort_min_size, max_size);
-		if (size < global.ally_escort_min_size) size = global.ally_escort_min_size;
+    var n = irandom_range(0, 100);
 
-		global.escortally[0, 0]++
-		global.escortally[global.escortally[0, 0], 0] = size
-		global.escortally[global.escortally[0, 0], 1] = 0
-		global.escortally[global.escortally[0, 0], 2] = 0
-		global.escortally[global.escortally[0, 0], 3] = 0
-		global.escortally[global.escortally[0, 0], 4] = 0
-		
-		for (var i = 1; i <= size; i++)
-		{
-			var plane_type = 1;
+    if (
+        (
+            global.xmas_score >= global.ally_score_to_recon_task
+            || global.xmas_score >= global.ally_score_to_transport_task
+            || global.xmas_score >= global.ally_score_to_intercept_task
+        )
+        && n <= global.spawn_chance_factor
+        || (keyboard_check_released(vk_f9) && global.debug)
+    )
+    {
+        if (!instance_exists(onmap_city)) exit;
 
-			if (ally.type == 1)
-			{
-				if (i == 1) plane_type = 1;
-				if (global.santa_upgraded_planes && i == 1) plane_type = 2;
-				available_plane_types = array_create(0);
-				array_push(available_plane_types, 1); 
-				array_push(available_plane_types, 1); 
-				if (global.santa_upgraded_planes) array_push(available_plane_types, 2);
-				if (i != 1) plane_type = irandom_range(0, array_length(available_plane_types) - 1);
-			}
-			else
-			if (ally.type == 3)
-			{
-				if (i == 1) plane_type = 7;
-				available_plane_types = array_create(0);
-				array_push(available_plane_types, 7); 
-				array_push(available_plane_types, 1);
-				if (global.santa_upgraded_planes) array_push(available_plane_types, 2);
-				if (i != 1) plane_type = irandom_range(0, array_length(available_plane_types) - 1);
-			}
-			else
-			if (ally.type == 2)
-			{
-				if (i == 1) plane_type = 1;
-				if (global.santa_upgraded_planes && i == 1) plane_type = 2;
-				available_plane_types = array_create(0);
-				array_push(available_plane_types, 1); 
-				if (global.santa_upgraded_planes) array_push(available_plane_types, 2);
-				if (i != 1) plane_type = irandom_range(0, array_length(available_plane_types) - 1);
-			}
-			
-			var weapon_1 = -1;
-			var weapon_2 = -1;
-			var weapon_3 = -1;
-			if (plane_type == 1 || plane_type == 2)
-			{
-				if (global.xmas_score < global.ally_score_to_intercept_task / 2)
-				{
-					weapon_1 = 1;
-				}
-				else
-				if (global.xmas_score < global.ally_score_to_intercept_task)
-				{
-					weapon_1 = 1;
-					if (irandom_range(0, 1) > 0) weapon_1 = 2;
-					if (irandom_range(0, 1) > 0) weapon_2 = 3;
-				}
-				else
-				{
-					if (irandom_range(0, 1) > 0)
-					{
-						weapon_1 = 2;
-						weapon_2 = 4;
-					}
-					else
-					if (irandom_range(0, 1) > 0)
-					{
-						weapon_1 = 1;
-						weapon_2 = 3;
-					}
-					if (irandom_range(0, 1) > 0)
-					{
-						weapon_1 = 4;
-						weapon_2 = 4;
-					}
-					else
-					{
-						weapon_1 = 1;
-						weapon_2 = 4;
-					}
-				}
-			}
-			
-			global.santaplanes[0, 0]++;
-			global.santaplanes[global.santaplanes[0, 0], 0] = plane_type;
-			global.santaplanes[global.santaplanes[0, 0], 1] = global.planedata[plane_type, 1];
-			global.santaplanes[global.santaplanes[0, 0], 2] = 0;
-			global.santaplanes[global.santaplanes[0, 0], 3] = global.planedata[plane_type, 12];
-			global.santaplanes[global.santaplanes[0, 0], 4] = global.planedata[plane_type, 13];
-			global.santaplanes[global.santaplanes[0, 0], 5] = weapon_1;
-			if (weapon_1 > -1) global.santaplanes[global.santaplanes[0, 0], 6] = global.airweapon[weapon_1, 2];
-			else global.santaplanes[global.santaplanes[0, 0], 6] = -1;
-			global.santaplanes[global.santaplanes[0, 0], 7] = weapon_2;
-			if (weapon_2 > -1) global.santaplanes[global.santaplanes[0, 0], 8] = global.airweapon[weapon_2, 2];
-			else global.santaplanes[global.santaplanes[0, 0], 8] = -1;
-			global.santaplanes[global.santaplanes[0, 0], 9] = weapon_3;
-			if (weapon_3 > -1) global.santaplanes[global.santaplanes[0, 0], 10] = global.airweapon[weapon_3, 2];
-			else global.santaplanes[global.santaplanes[0, 0], 10] = -1;
-			global.santaplanes[global.santaplanes[0, 0], 11] = 0;
-			global.santaplanes[global.santaplanes[0, 0], 12] = global.escortally[0, 0];
-			global.santaplanes[global.santaplanes[0, 0], 13] = global.planedata[plane_type, 0];
-			
-			global.escortally[global.escortally[0, 0], i + 3] = global.santaplanes[0, 0];
-		}
-		if (instance_exists(time_m)) time_m.allies_per_day++;
-		//ally.type = clamp(ceil(r / random_max_range_step), 1, 3);
-		if (ally.type < 1 || ally.type > 3) ally.type = 1;
-		ally.indx = global.escortally[0, 0]
-		ally.point_x = ally.x + 10;
-		ally.point_y = ally.y + 10;
-		show_debug_message("Заспавнен союзник: ");
-		show_debug_message("Тип: " + string(ally.type));
-		show_debug_message("Номер: " + string(ally.indx));
-		show_debug_message("Номер изнач: " + string(global.escortally[0, 0]));
-		show_debug_message("Число самолетов: " + string(size));
-	}
+        var random_city = instance_nearest(irandom_range(0, 900), irandom_range(0, 900), onmap_city);
+
+        var ally = instance_create(random_city.x, random_city.y, onmap_ally);
+        ally.base_x = random_city.base_x;
+        ally.base_y = random_city.base_y;
+
+        var ally_types = array_create(0);
+
+        if (global.xmas_score >= global.ally_score_to_recon_task)
+        {
+            array_push(ally_types, 1); // разведчик
+        }
+
+        if (global.xmas_score >= global.ally_score_to_intercept_task)
+        {
+            array_push(ally_types, 2); // перехватчик
+            array_push(ally_types, 2);
+            array_push(ally_types, 2); // вес
+        }
+
+        if (global.xmas_score >= global.ally_score_to_transport_task)
+        {
+            array_push(ally_types, 3); // транспорт
+        }
+
+        if (array_length(ally_types) < 1)
+        {
+            instance_destroy(ally);
+            exit;
+        }
+
+        ally.type = ally_types[irandom(array_length(ally_types) - 1)];
+
+        var max_size = round(global.ally_escort_max_size * (global.xmas_score / global.score_to_max_size));
+        if (max_size > global.ally_escort_max_size) max_size = global.ally_escort_max_size;
+        if (max_size < global.ally_escort_min_size) max_size = global.ally_escort_min_size;
+
+        var size = irandom_range(global.ally_escort_min_size, max_size);
+        if (size < global.ally_escort_min_size) size = global.ally_escort_min_size;
+
+        global.escortally[0, 0]++;
+        var escort_index = global.escortally[0, 0];
+
+        global.escortally[escort_index, 0] = size;
+        global.escortally[escort_index, 1] = 0;
+        global.escortally[escort_index, 2] = 0;
+        global.escortally[escort_index, 3] = 0;
+        global.escortally[escort_index, 4] = 0;
+
+        for (var i = 1; i <= size; i++)
+        {
+            var plane_type = 1;
+            var available_plane_types = array_create(0);
+
+            if (ally.type == 1) // разведчик
+            {
+                if (i == 1)
+                {
+                    plane_type = 1;
+                    if (global.santa_upgraded_planes) plane_type = 2;
+                }
+                else
+                {
+                    array_push(available_plane_types, 1);
+                    array_push(available_plane_types, 1);
+                    if (global.santa_upgraded_planes) array_push(available_plane_types, 2);
+
+                    plane_type = available_plane_types[irandom(array_length(available_plane_types) - 1)];
+                }
+            }
+            else if (ally.type == 3) // транспорт
+            {
+                if (i == 1)
+                {
+                    plane_type = 7;
+                }
+                else
+                {
+                    array_push(available_plane_types, 7);
+                    array_push(available_plane_types, 1);
+                    if (global.santa_upgraded_planes) array_push(available_plane_types, 2);
+
+                    plane_type = available_plane_types[irandom(array_length(available_plane_types) - 1)];
+                }
+            }
+            else if (ally.type == 2) // перехватчик
+            {
+                if (i == 1)
+                {
+                    plane_type = 1;
+                    if (global.santa_upgraded_planes) plane_type = 2;
+                }
+                else
+                {
+                    array_push(available_plane_types, 1);
+                    if (global.santa_upgraded_planes) array_push(available_plane_types, 2);
+
+                    plane_type = available_plane_types[irandom(array_length(available_plane_types) - 1)];
+                }
+            }
+
+            var weapon_1 = -1;
+            var weapon_2 = -1;
+            var weapon_3 = -1;
+
+            if (plane_type == 1 || plane_type == 2)
+            {
+                if (global.xmas_score < global.ally_score_to_intercept_task / 2)
+                {
+                    weapon_1 = 1;
+                }
+                else if (global.xmas_score < global.ally_score_to_intercept_task)
+                {
+                    weapon_1 = 1;
+                    if (irandom_range(0, 1) > 0) weapon_1 = 2;
+                    if (irandom_range(0, 1) > 0) weapon_2 = 3;
+                }
+                else
+                {
+                    if (irandom_range(0, 1) > 0)
+                    {
+                        weapon_1 = 2;
+                        weapon_2 = 4;
+                    }
+                    else if (irandom_range(0, 1) > 0)
+                    {
+                        weapon_1 = 1;
+                        weapon_2 = 3;
+                    }
+
+                    if (irandom_range(0, 1) > 0)
+                    {
+                        weapon_1 = 4;
+                        weapon_2 = 4;
+                    }
+                    else
+                    {
+                        weapon_1 = 1;
+                        weapon_2 = 4;
+                    }
+                }
+            }
+
+            global.santaplanes[0, 0]++;
+            var row = global.santaplanes[0, 0];
+
+            // [FIX] Явно создаём строку, чтобы не ловить index out of range
+            global.santaplanes[row] = array_create(14, 0);
+
+            global.santaplanes[row, 0] = plane_type;
+            global.santaplanes[row, 1] = global.planedata[plane_type, 1];
+            global.santaplanes[row, 2] = 0;
+            global.santaplanes[row, 3] = global.planedata[plane_type, 12];
+            global.santaplanes[row, 4] = global.planedata[plane_type, 13];
+            global.santaplanes[row, 5] = weapon_1;
+            global.santaplanes[row, 6] = (weapon_1 > -1) ? global.airweapon[weapon_1, 2] : -1;
+            global.santaplanes[row, 7] = weapon_2;
+            global.santaplanes[row, 8] = (weapon_2 > -1) ? global.airweapon[weapon_2, 2] : -1;
+            global.santaplanes[row, 9] = weapon_3;
+            global.santaplanes[row, 10] = (weapon_3 > -1) ? global.airweapon[weapon_3, 2] : -1;
+            global.santaplanes[row, 11] = 0;
+            global.santaplanes[row, 12] = escort_index;
+            global.santaplanes[row, 13] = global.planedata[plane_type, 0];
+
+            global.escortally[escort_index, i + 3] = row;
+        }
+
+        if (instance_exists(time_m)) time_m.allies_per_day++;
+
+        if (ally.type < 1 || ally.type > 3) ally.type = 1;
+
+        ally.indx = escort_index;
+        ally.point_x = ally.base_x + 10;
+        ally.point_y = ally.base_y + 10;
+
+        show_debug_message("Заспавнен союзник:");
+        show_debug_message("Тип: " + string(ally.type));
+        show_debug_message("Номер: " + string(ally.indx));
+        show_debug_message("Номер изнач: " + string(escort_index));
+        show_debug_message("Число самолетов: " + string(size));
+    }
 }
 
 }

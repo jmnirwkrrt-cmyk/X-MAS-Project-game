@@ -458,7 +458,7 @@ function text_eng() {
 	global.txt448 = " BETWEEN ";
 	global.txt449 = " WITH ";
 	global.txt450 = "Restart battle?";
-	global.txt451 = "";
+	global.txt451 = "Sonic's Chili-Dog crate";
 	global.txt452 = "";
 	global.txt453 = "";
 	global.txt454 = "";
@@ -1235,6 +1235,46 @@ function text_eng() {
 		available: false, 
 		order_number: -1 
 	};
+	global.mail[0]++; // 43
+	global.mail[global.mail[0]] = 
+	{ 
+		header: "Hold On to My Chili Dogs, Pal!", 
+		from: "Sound Hedgehog", 
+		to: "Supreme Commander", 
+		text: "Comrade, after my chili dogs were treacherously eaten, I can no longer trust a refrigerator with them. I saved up a whole crate of chili dogs and decided to hide them in the warehouse for a while. I hope you don't mind? Please, keep them safe for me! You're my last hope!", 
+		available: false, 
+		order_number: -1 
+	};
+	global.mail[0]++; // 44
+	global.mail[global.mail[0]] = 
+	{ 
+		header: "GOODBYE, CRUEL WORLD!", 
+		from: "Robbed Hedgehog", 
+		to: "Supreme Traitor", 
+		text: "Et tu, Brute! Nobody on this base can be trusted! What a nightmare! Everyone steals chili dogs from poor hedgehogs, and nobody cares about their grief! I cannot go on living in this world!", 
+		available: false, 
+		order_number: -1 
+	};
+	global.mail[0]++; // 45
+	global.mail[global.mail[0]] = 
+	{ 
+		header: "YOU'LL PAY FOR THIS!", 
+		from: "Amy Rose", 
+		to: "Supreme Scumbag", 
+		text: "HOW DARE YOU DRIVE MY BLUE HEDGEHOG TO HIS DEATH WITH YOUR OUTRAGEOUS BETRAYAL?! YOU'LL PAY FOR THIS, JUST YOU WAIT! THIS WILL BE THE SADDEST DAY OF YOUR SHORT LITTLE LIFE!", 
+		available: false, 
+		order_number: -1 
+	};
+	global.mail[0]++; // 46
+	global.mail[global.mail[0]] = 
+	{ 
+		header: "The Chili Dogs Are in a Safe Place Now", 
+		from: "Sound Hedgehog", 
+		to: "Supreme Commander", 
+		text: "Thanks for keeping my chili dogs safe, pal! Still, I'm afraid someone had already picked up their trail, so I hid them again. This time, in the safest place in the whole world — my tummy.", 
+		available: false, 
+		order_number: -1 
+	};
 	
 	
 
@@ -1258,5 +1298,64 @@ function text_eng() {
 	global.map_messages_text_18 = "";
 	global.map_messages_text_19 = "";
 	global.map_messages_text_20 = "";
-
+	
+	
+	global.name[0, 0] = 0; // count
+	global.name[1, 0] = "Wind"; // first name
+	global.name[1, 1] = " Blizzardov"; // last name
+	global.name[0, 0]++;
+	global.name[2, 0] = "Snow"; // first name
+	global.name[2, 1] = " Frostov"; // last name
+	global.name[0, 0]++;
+	global.name[3, 0] = "Blizzard"; // first name
+	global.name[3, 1] = " Iceov"; // last name
+	global.name[0, 0]++;
+	global.name[4, 0] = "Ice"; // first name
+	global.name[4, 1] = " Windovich"; // last name
+	global.name[0, 0]++;
+	global.name[5, 0] = "Snowstorm"; // first name
+	global.name[5, 1] = " Windov"; // last name
+	global.name[0, 0]++;
+	global.name[6, 0] = "Black Ice"; // first name
+	global.name[6, 1] = " Snowov"; // last name
+	global.name[0, 0]++;
+	global.name[7, 0] = "Snowman"; // first name
+	global.name[7, 1] = " Black-Iceov"; // last name
+	global.name[0, 0]++;
+	global.name[8, 0] = "Whistle"; // first name
+	global.name[8, 1] = " Broomov"; // last name
+	global.name[0, 0]++;
+	global.name[9, 0] = "Typhoon"; // first name
+	global.name[9, 1] = " Whiteov"; // last name
+	global.name[0, 0]++;
+	global.name[10, 0] = "Blue"; // first name
+	global.name[10, 1] = " Aurorovich"; // last name
+	global.name[0, 0]++;
+	global.name[11, 0] = "Glow"; // first name
+	global.name[11, 1] = " Rainbowov"; // last name
+	global.name[0, 0]++;
+	global.name[12, 0] = "Chill"; // first name
+	global.name[12, 1] = " Cooldavich"; // last name
+	global.name[0, 0]++;
+	global.name[13, 0] = "Cold"; // first name
+	global.name[13, 1] = " Frozenov"; // last name
+	global.name[0, 0]++;
+	global.name[14, 0] = "Water"; // first name
+	global.name[14, 1] = " Icicler"; // last name
+	global.name[0, 0]++;
+	global.name[15, 0] = "Buckethead"; // first name
+	global.name[15, 1] = " Carrotkin"; // last name
+	global.name[0, 0]++;
+	global.name[16, 0] = "Button"; // first name
+	global.name[16, 1] = " Twigovich"; // last name
+	global.name[0, 0]++;
+	global.name[17, 0] = "Candy Cane"; // first name
+	global.name[17, 1] = " Giftovich"; // last name
+	global.name[0, 0]++;
+	global.name[18, 0] = "Giftov"; // first name
+	global.name[18, 1] = " Candyovich"; // last name
+	global.name[0, 0]++;
+	global.name[19, 0] = "Twigov"; // first name
+	global.name[19, 1] = " Buttonkin"; // last name
+	global.name[0, 0]++;
 }

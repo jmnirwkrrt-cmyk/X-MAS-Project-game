@@ -111,7 +111,7 @@ if (clk_released) // Мышь отжала кнопку
 					var i = 0;
 					for (i = 1; i <= global.atstockpile[0, 0]; i++)
 					{
-						if (global.atstockpile[i, 0] == 18) { beetle_index = i; break; }
+						if (global.atstockpile[i, 0] == 18) { beetles_index = i; break; }
 					}
 					if (beetles_index > 0) global.atstockpile[i, 1] += oArena3D.beetle_corpses;
 					else 
@@ -192,13 +192,12 @@ if (clk_released) // Мышь отжала кнопку
 				}
 				
 
-				if (oArena3D.battle_type == 4) { global.technologies[24, 2] = true; /*new_tech_available_popup();*/ }
+				if (oArena3D.battle_type == 4) { global.santa_will_support_next_assault = false; global.technologies[20, 2] = true; /*new_tech_available_popup();*/ }
 				if (oArena3D.battle_type == 5)
 				{
 					new_mail(17);
 				}
 				room_goto(map_room);
-				if (oArena3D.battle_type == 4) global.santa_will_support_next_assault = false;
 			}
 			if (room == Ground_Test_Arena_3D) room_goto(menu_room);	
 		}

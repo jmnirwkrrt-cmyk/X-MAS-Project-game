@@ -76,6 +76,7 @@ function __save_should_skip_global(_name, _val)
 		case "items":
         case "plane_modules":
         case "airweapon":
+		case "game_version":
         case "eggplanedata":
             return true;
 

@@ -111,7 +111,8 @@ function planes_and_infantry() {
 	global.team[4, 7] = false; // нужна ли перезарядка
 	global.team[0, 0]++;
 	global.team[5, 0] = 0;
-	global.team[5, 1] = "Ветер Вьюгов";
+	if (global.txt1 == "Гранаты") global.team[5, 1] = "Ветер Вьюгов";
+	else global.team[5, 1] = "Wind Blizzardov";
 	global.team[5, 2] = "snowman";
 	global.team[5, 3] = "";
 	global.team[5, 4] = global.snowmanmaxhp;
@@ -120,7 +121,8 @@ function planes_and_infantry() {
 	global.team[5, 7] = false; // нужна ли перезарядка
 	global.team[0, 0]++;
 	global.team[6, 0] = 0;
-	global.team[6, 1] = "Вьюгов Ветер";
+	if (global.txt1 == "Гранаты") global.team[6, 1] = "Вьюгов Ветер";
+	else global.team[6, 1] = "Blizzard Windov";
 	global.team[6, 2] = "snowman";
 	global.team[6, 3] = "";
 	global.team[6, 4] = global.snowmanmaxhp;
@@ -129,7 +131,8 @@ function planes_and_infantry() {
 	global.team[6, 7] = false; // нужна ли перезарядка
 	global.team[0, 0]++;
 	global.team[7, 0] = 0;
-	global.team[7, 1] = "Снег Морозов";
+	if (global.txt1 == "Гранаты") global.team[7, 1] = "Снег Морозов";
+	else global.team[7, 1] = "Snow Frostov";
 	global.team[7, 2] = "snowman";
 	global.team[7, 3] = "";
 	global.team[7, 4] = global.snowmanmaxhp;
@@ -176,67 +179,5 @@ function planes_and_infantry() {
 		global.team[9, 2] = global.txt1469;
 		global.team[10, 2] = global.txt1479;
 	 }
-
-
-	global.name[0, 0] = 0; // кол-во
-	global.name[1, 0] = "Ветер"; // имя
-	global.name[1, 1] = " Вьюгов"; // фамилия
-	global.name[0, 0]++;
-	global.name[2, 0] = "Снег"; // имя
-	global.name[2, 1] = " Морозов"; // фамилия
-	global.name[0, 0]++;
-	global.name[3, 0] = "Метель"; // имя
-	global.name[3, 1] = " Лёдов"; // фамилия
-	global.name[0, 0]++;
-	global.name[4, 0] = "Лёд"; // имя
-	global.name[4, 1] = " Ветрович"; // фамилия
-	global.name[0, 0]++;
-	global.name[5, 0] = "Вьюга"; // имя
-	global.name[5, 1] = " Ветров"; // фамилия
-	global.name[0, 0]++;
-	global.name[6, 0] = "Гололёд"; // имя
-	global.name[6, 1] = " Снежнов"; // фамилия
-	global.name[0, 0]++;
-	global.name[7, 0] = "Снеговик"; // имя
-	global.name[7, 1] = " Гололёдов"; // фамилия
-	global.name[0, 0]++;
-	global.name[8, 0] = "Свист"; // имя
-	global.name[8, 1] = " Метлов"; // фамилия
-	global.name[0, 0]++;
-	global.name[9, 0] = "Тайфун"; // имя
-	global.name[9, 1] = " Белов"; // фамилия
-	global.name[0, 0]++;
-	global.name[10, 0] = "Синий"; // имя
-	global.name[10, 1] = "Аврорович"; // фамилия
-	global.name[0, 0]++;
-	global.name[11, 0] = "Сиян"; // имя
-	global.name[11, 1] = " Радугов"; // фамилия
-	global.name[0, 0]++;
-	global.name[12, 0] = "Озноб"; // имя
-	global.name[12, 1] = " Охлаждавич"; // фамилия
-	global.name[0, 0]++;
-	global.name[13, 0] = "Холод"; // имя
-	global.name[13, 1] = " Замёрзов"; // фамилия
-	global.name[0, 0]++;
-	global.name[14, 0] = "Вода"; // имя
-	global.name[14, 1] = " Сосульник"; // фамилия
-	global.name[0, 0]++;
-	global.name[15, 0] = "Ведроголовик"; // имя
-	global.name[15, 1] = " Морковкин"; // фамилия
-	global.name[0, 0]++;
-	global.name[16, 0] = "Пуговка"; // имя
-	global.name[16, 1] = " Веткович"; // фамилия
-	global.name[0, 0]++;
-	global.name[17, 0] = "Леденец"; // имя
-	global.name[17, 1] = " Подаркович"; // фамилия
-	global.name[0, 0]++;
-	global.name[18, 0] = "Подарков"; // имя
-	global.name[18, 1] = " Леденцович"; // фамилия
-	global.name[0, 0]++;
-	global.name[19, 0] = "Ветков"; // имя
-	global.name[19, 1] = " Пуговкин"; // фамилия
-	global.name[0, 0]++;
-
-
 
 }

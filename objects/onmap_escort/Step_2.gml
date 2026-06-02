@@ -656,7 +656,7 @@ if (ready)
 				}
 			}
 		}
-		if (!infight && !instance_exists(target) && !instance_exists(background_map) && (status == 1 || status == 5 || status == 6 || status == 4))	
+		if (!infight && (!instance_exists(target) || ((variable_instance_exists(target, "revealed") && !target.revealed) || (variable_instance_exists(target, "founded") && !target.founded))) && !instance_exists(background_map) && (status == 1 || status == 5 || status == 6 || status == 4))	
 		{
 			if (!instance_exists(ask_message))
 			{

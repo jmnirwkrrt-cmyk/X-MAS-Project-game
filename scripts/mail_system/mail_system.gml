@@ -23,6 +23,7 @@ function try_random_mail()
 		array_push(mails_array, 38);
 		array_push(mails_array, 39);
 		if (global.team[8, 4] > global.team[8, 5] - 1) array_push(mails_array, 41);
+		if (global.team[1, 4] > 0 && global.mail[1].available) array_push(mails_array, 43);
 		while (!mail_selected && tries < max_tries)
 		{
 			var s = irandom_range(0, array_length(mails_array) - 1);
@@ -52,6 +53,13 @@ function try_random_mail()
 					{
 						mail_selected = false;
 					}
+				}
+				if (mails_array[s] == 43)
+				{
+					global.atstockpile[0, 0]++;
+					global.atstockpile[global.atstockpile[0, 0], 0] = 38;
+					global.atstockpile[global.atstockpile[0, 0], 1] = 1;
+					global.atstockpile[global.atstockpile[0, 0], 2] = 0;
 				}
 				
 				if (mail_selected)

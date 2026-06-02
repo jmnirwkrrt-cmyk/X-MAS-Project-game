@@ -30,7 +30,7 @@ if (instance_exists(text)) instance_destroy(text);
 		if (plane_hp > 0) is_destroyed = false;
 
 		// [FIX] Состав эскадрильи считаем НЕ по живым, а по тому, что в ней было вообще
-		if (type_s == 2 || type_s == 4 || type_s == 5 || type_s == 6)
+		if (type_s == 2 || type_s == 4 || type_s == 5)
 		{
 			had_alloys = true;
 			alloys += choose(type_s, 1, 0); // оставил твою старую логику как есть
@@ -39,7 +39,7 @@ if (instance_exists(text)) instance_destroy(text);
 		if (type_s == 3 || type_s == 5)
 		{
 			had_emitters = true;
-			emitters += choose(1, 0); // оставил твою старую логику как есть
+			emitters += choose(1, 0, 2); // оставил твою старую логику как есть
 		}
 
 		if (type_s == 3) had_radar = true;

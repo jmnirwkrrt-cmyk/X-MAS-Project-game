@@ -38,6 +38,29 @@ if (type == 6)
 					global.atstockpile[global.atstockpile[0, 0], 1] = em_count;
 					global.atstockpile[global.atstockpile[0, 0], 2] = 0;
 				}
+				
+				var alloy_index = 0;
+				var alloy_count = choose(2, 10);
+				for (var i = 1; i <= global.atstockpile[0, 0]; i++)
+				{
+					if (global.atstockpile[i, 0] == 25)
+					{
+						alloy_index = i;
+						break;
+					}
+				}
+				
+				if (alloy_index > 0)
+				{
+					global.atstockpile[alloy_index, 1] += alloy_count;
+				}
+				else
+				{
+					global.atstockpile[0, 0]++;
+					global.atstockpile[global.atstockpile[0, 0], 0] = 25;
+					global.atstockpile[global.atstockpile[0, 0], 1] = alloy_count;
+					global.atstockpile[global.atstockpile[0, 0], 2] = 0;
+				}
 			}
 		}
 	}

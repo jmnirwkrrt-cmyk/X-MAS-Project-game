@@ -10,7 +10,7 @@ function global_variables() {
 	global.game_autoloading = false; // для загрузки автосохранения при заходе на карту мира
 	global.save_number = 1; // сохраняется отдельно вместе с настройками звука и языка
 	// чтобы не стирать старые сохранения
-	global.game_version = "1.0"; // версия игры, используется для записи и загрузки сохранений
+	global.game_version = "1.1"; // версия игры, используется для записи и загрузки сохранений
 	global.game_over = false; // окончена ли игра
 	global.autosave = true; // делать ли автосохранение каждый игровой день
 	global.skip_intro = false;
@@ -58,7 +58,7 @@ function global_variables() {
 	
 	global.objects_ids = 0; // растущий номер присваиваемый каждому объекту который может стать чей-то целью, первый объект должен иметь номер 1
 	
-	global.intros = false; // Проигрывать видеоролики во время игры?
+	global.intros = true; // Проигрывать видеоролики во время игры?
 	global.first_intercept = false; // Был ли первый перехват (для проигрывания запуска торнадо)
 	global.is_minigame_unlocked = false;
 	
@@ -142,7 +142,7 @@ function global_variables() {
 	
 	global.reveal_chance_building = 15; // вероятность обнаружить строение каждые n секунд
 	global.reveal_chance_base = 2; // вероятность обнаружить базу каждые n секунд 
-	global.reveal_chance_air = 20; // вероятность обнаружить воздушную цель каждые n секунд 
+	global.reveal_chance_air = 15; // вероятность обнаружить воздушную цель каждые n секунд 
 	
 	global.accident_rate = 520; // n секунд до следущего возможного инцидента
 	
@@ -155,7 +155,7 @@ function global_variables() {
 	
 	global.radarrange = 0; // радиус радара базы
 	global.oneradar = 100; // радиус одного радара
-	global.radar_chance = 40; // шанс одного радара обнаружить цель в течении n секунд (наземными РЛС)
+	global.radar_chance = 30; // шанс одного радара обнаружить цель в течении n секунд (наземными РЛС)
 	global.maxradar = 600; // максимальный радиус радара
 	
 	global.factories = 0; // количество заводов игрушек на карте
@@ -812,6 +812,10 @@ function global_variables() {
 	global.items[37, 0] = global.txt73; // Скаут
 	global.items[37, 1] = 350000; // цена
 	global.items[37, 2] = -2; // объём
+	global.items[0, 0]++;
+	global.items[38, 0] = global.txt451; // Ящик с чили-догами
+	global.items[38, 1] = 500000; // цена
+	global.items[38, 2] = 2; // объём
 	global.items[0, 0]++;
 
 

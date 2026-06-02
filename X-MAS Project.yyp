@@ -174,7 +174,6 @@
     {"$GMIncludedFile":"","%Name":"X-MAS_intro.mp4","CopyToMask":-1,"filePath":"datafiles","name":"X-MAS_intro.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"X-MAS_intro.webm","CopyToMask":-1,"filePath":"datafiles","name":"X-MAS_intro.webm","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"X-MAS_intro.wmv","CopyToMask":9223372036854775807,"filePath":"datafiles","name":"X-MAS_intro.wmv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"xmas_settings.ini","CopyToMask":-1,"filePath":"datafiles","name":"xmas_settings.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],

@@ -101,6 +101,9 @@ if (hours_current > 23)
 	day_current++; hours_current -= 24; 
 	global.enemy_score += global.enemy_score_gain_daily + irandom_range(-global.enemy_score_gain_daily_deviation, global.enemy_score_gain_daily_deviation); 
 	global.enemy_score_month += global.enemy_score_gain_daily;
+	if (global.enemy_score < global.xmas_score / 4) global.enemy_score = global.xmas_score / 4;
+	else
+	if (global.xmas_score > global.enemy_score * 2) global.enemy_score *= 1.5;
 	
 	enemies_per_day = 0;
 	allies_per_day = 0;
@@ -108,7 +111,7 @@ if (hours_current > 23)
 	
 	if (global.enemy_score < 1) global.enemy_score = 1;
 	
-	if (global.mail[3].available)
+	if (global.mail[3].available || global.mail[45].available)
 	{
 		var random_chance = choose(0, 0, 1);
 		if (random_chance == 1 && (global.current_diff_mn == global.heavy_diff_mn || global.debug)) room_goto(intro_amy_screamer);
@@ -119,12 +122,44 @@ if (hours_current > 23)
 		if (global.wiki[54, 2]) new_mail(42);	
 		//if (global.technologies[21, 2]) new_mail(29);	улучшенные методы обнаружения
 		//if (global.technologies[25, 2]) new_mail(29);	
-		if (global.technologies[20, 2]) new_mail(29);	
+		if (global.technologies[20, 1]) new_mail(29);	
 	}
 	if (global.team[4, 4] > 0)
 	{
 		if (global.emerald_spawn_started) new_mail(27);
 	}
+	
+	
+	if (global.mail[43].available && global.team[1, 4] > 0 && !global.mail[44].available && !global.mail[46].available)
+	{
+		var rand_chance = choose(true, false, false, false);
+		if (rand_chance)
+		{
+			var chili_dogs_index = -1;
+			for (var i = 1; i <= global.atstockpile[0, 0]; i++)
+			{
+				if (global.atstockpile[i, 0] == 38 && global.atstockpile[i, 1] > 0) { chili_dogs_index = i; break; }
+			}
+			
+			if (chili_dogs_index == -1)
+			{
+				new_mail(44);
+				if (global.team[3, 4] > 0) new_mail(45);
+				if (global.operatives_can_die) global.team[1, 4] = 0;
+				else global.team[1, 4] = 1;
+				show_debug_message($"Чили-доги сворованы!");
+			}
+			else
+			{
+				new_mail(46);
+				global.atstockpile[chili_dogs_index, 1] = 0;
+				global.team[1, 6] += 1;
+				global.xmas_score += 50;
+				show_debug_message($"Чили-доги спасены!");
+			}
+		}
+	}
+	
 }
 if (day_current > 31) { month_current++; day_current -= 32; }
 if (month_current > 12) { year_current++; month_current -= 13; }

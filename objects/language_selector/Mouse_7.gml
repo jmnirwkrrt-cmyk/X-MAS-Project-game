@@ -4,6 +4,8 @@ if (visible)
 	{
 		text_ru();
 		global_variables();
+		aircrafts();
+		text_ru();
 		ufopedia();
 		planes_and_infantry();
 		script_technologies();
@@ -13,6 +15,8 @@ if (visible)
 	{
 		text_eng();
 		global_variables();
+		aircrafts();
+		text_eng();
 		ufopedia();
 		planes_and_infantry();
 		script_technologies();
