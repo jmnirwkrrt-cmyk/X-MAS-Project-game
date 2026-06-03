@@ -15,7 +15,10 @@ On the eve of the end of 2021, an incident occurred at the north pole, where the
 
 Santa Claus, realizing that two fat men could not peacefully coexist on the same polar continent, contacted those who most understand this threat. Having built the portal, he called on new friends to help and founded the X-MAS project, which must cope with the impending threat of disruption of Christmas and New year. With the latest technologies from the Santa Claus factory, a belief in miracles, and a unique Tails fighter, the project must explore and eliminate the new threat and ensure the implementation of the five-year plan in one month..
 
-## Languages: RUS|ENG
+## Specifications || Спецификации
+
+Languages: RUS|ENG
+
 Game Platform: Windows
 
 Game Engine: Game Maker 2024
@@ -23,7 +26,7 @@ Game Engine: Game Maker 2024
 Game genre: Real-time strategy with beat 'em up elements
 
 
-## License
+## License || Лицензия
 
 Original materials created by the project author are licensed under the MIT License.
 See `LICENSE.md`.
@@ -33,9 +36,21 @@ This includes the author's original source code, graphics, sound effects, music,
 Third-party materials are not covered by this license. This license does not grant rights to Sonic the Hedgehog characters, SEGA trademarks, GameMaker, GameMaker runtime files, third-party music, third-party sound recordings, fonts, or other materials owned by their respective rights holders.
 
 
+Оригинальные материалы, созданные автором проекта, лицензируются по лицензии MIT.
+См. `LICENSE.md`.
+
+Сюда входят исходный код автора, графика, звуковые эффекты, музыка, текст, файлы данных, элементы пользовательского интерфейса и документация, если не указано иное.
+
+На материалы третьих сторон данная лицензия не распространяется. Эта лицензия не предоставляет прав на персонажей Sonic the Hedgehog, товарные знаки SEGA, GameMaker, файлы среды выполнения GameMaker, стороннюю музыку, сторонние звукозаписи, шрифты или другие материалы, принадлежащие их соответствующим правообладателям..
+
+
 ## Additional sites || Дополнительные сайты:
 https://sonicfangameshq.com/forums/threads/sonic-x-mas-project-christmas-defense-demonstration-version-released.1413/
 
 https://gamejolt.com/games/X-MAS_PROJECT/979804
 
 https://rutracker.org/forum/viewtopic.php?t=6865843
+
+## Gameplay video || Видео с геймплеем
+
+https://drive.google.com/file/d/1S38cO9Lqoi4NUNWc2DXT_eF9hgU5VkIi/view?usp=sharing
