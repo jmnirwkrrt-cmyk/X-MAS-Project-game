@@ -300,7 +300,7 @@ function aircrafts() {
 	global.airweapon[4, 10] = 6000; // скорость снаряда (суммируется к скорости самолета)
 	global.airweapon[4, 11] = 1; // управляемый
 	global.airweapon[4, 12] = 3; // ускорение
-	global.airweapon[4, 13] = 100 * global.expl_mn; // радиус взрыва
+	global.airweapon[4, 13] = 50 * global.expl_mn; // радиус взрыва
 	global.airweapon[0, 0]++;
 	global.airweapon[5, 0] = 24; // индекс в items, лавина
 	global.airweapon[5, 1] = 1; // требуется для перезарядки боеприпасов
@@ -311,11 +311,11 @@ function aircrafts() {
 	global.airweapon[5, 6] = false; // может бомбить
 	global.airweapon[5, 7] = 70; // скорострельность (выше = ниже)
 	global.airweapon[5, 8] = 3300 * global.range_mn; // дальность, делить на 10 км в описании
-	global.airweapon[5, 9] = 600; // урон боеприпаса
+	global.airweapon[5, 9] = 2000; // урон боеприпаса
 	global.airweapon[5, 10] = 8000; // скорость снаряда (суммируется к скорости самолета)
 	global.airweapon[5, 11] = 1; // управляемый
 	global.airweapon[5, 12] = 3; // ускорение
-	global.airweapon[5, 13] = 180 * global.expl_mn; // радиус взрыва
+	global.airweapon[5, 13] = 200 * global.expl_mn; // радиус взрыва
 	global.airweapon[0, 0]++;
 	global.airweapon[6, 0] = 15; // индекс в items, авиабомба
 	global.airweapon[6, 1] = 2; // требуется для перезарядки боеприпасов
